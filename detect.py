@@ -1,0 +1,21 @@
+import requests
+# pprint is used to format the JSON response
+from pprint import pprint
+
+import os
+
+subscription_key = "<paste-your-text-analytics-key-here>"
+endpoint = "<paste-your-text-analytics-endpoint-here>"
+
+language_api_url = endpoint + "/text/analytics/v2.1/languages"
+
+documents = {"documents": [
+    {"id": "1", "text": "This is a document written in English."},
+    {"id": "2", "text": "Este es un document escrito en Español."},
+    {"id": "3", "text": "这是一个用中文写的文件"}
+]}
+
+headers = {"Ocp-Apim-Subscription-Key": subscription_key}
+response = requests.post(language_api_url, headers=headers, json=documents)
+languages = response.json()
+pprint(languages)
