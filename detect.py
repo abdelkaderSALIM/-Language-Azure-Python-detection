@@ -2,7 +2,7 @@ import requests
 # pprint is used to format the JSON response
 from pprint import pprint
 
-import os
+import os, json
 
 subscription_key = "d4adcdc709a24e5fb4ec1e7b0cef7f17"
 endpoint = "https://ostextanalytics.cognitiveservices.azure.com"
