@@ -1,24 +1,7 @@
-{
-        "documents": [
-            {
-                "id": "1",
-                "text": "This document is in English."
-            },
-            {
-                "id": "2",
-                "text": "Este documento está en inglés."
-            },
-            {
-                "id": "3",
-                "text": "Ce document est en anglais."
-            },
-            {
-                "id": "4",
-                "text": "本文件为英文"
-            },
-            {
-                "id": "5",
-                "text": "Этот документ на английском языке."
-            }
-        ]
-    }
+{"documents": [
+    {"id": "1", "text": "The strategic leader fills the gap between the need for new possibility and the need for practicality by providing a prescriptive set of habits."},
+    {"id": "2", "text": "「1918年9月漢陽鐵廠技術人員名單」(華員)：制鋼股副股長楊卓，雲巖，江蘇上海，32歲，民國二年八月到差，月支薪393元，畢業於里海大學。方一兵編.《漢冶萍公司與中國近代鋼鐵技術移植》.科學出版社,2010.09.第69.72頁方一兵編.《漢冶萍公司與中國近代鋼鐵技術移植》.科學出版社,2010.09.第69.72頁"},
+    {"id": "3", "text": "लिविरचितस्य योगसूत्रस्य एको भाष्यग्रन्थः प्रसिद्धोऽस्ति । तस्य नामास्ति व्यासभाष्यम् इति । योगसूत्राणां रहस्यं स्फुटीकर्त्तुम् अस्य भाष्यग्रन्थस्य अपयोगिता प्रामाण्यं च स्वीक्रियते । यद्यपि व्यासभाष्ये क्लिष्टताया आधिक्यमस्ति तथापि दुर्वहं नास्ति, यतो हि अस्य भाष्यस्यापि अनेके टीकाग्रन्थाः प्राप्यन्ते । वाचस्पतिमिश्रस्य तत्त्ववैशारदी “ विज्ञानभिक्षोः” “योगवार्तिकम् “ च श्रेष्ठौ टीकाग्रन्थौ स्तः । एतदतिरिक्तं हरिहरानन्द आरण्यक विरचिता एका अन्या टीका “ भास्वती” नाम्नाऽपि प्राप्यते । तत्त्ववैशारदी” विषयीकृत्य कालान्तरे राघवानन्देन “पातञ्जलयोगरहस्यम्” इति नाम्ना टीकाग्रन्थो रचितः ।"},
+    {"id": "4", "text": "La Repuvlika de Nikaragua se topa en las koordenadas jeografikas del meridiano de Greenwich latitud norte 13º 05' 00 minima, 12º 30' 00 maxima, longitud oeste 86º 15' 00 minima, 90º 14' 00 maxima.La su jeografía fisika es una grande parte montanyosa. Hay aki, playas en su litoral dela Mar Karibe i planadas de sharas al norte del paiz. Es atravesada en su parte sentral por la Kordiyera Sentroamerikana o endemas yamada Kordiyera Volkanika. Las izlas de la Mar Karibe zon parte del territorio del paiz."},
+    {"id": "5", "text": "Les supporters de l'ASM Clermont Auvergne ont reçu en 2007, 2008 et 2009 le prix de l’Éthique et de la convivialité (challenge des meilleurs supporters) du Top 14."}
+ ]}
