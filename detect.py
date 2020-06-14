@@ -9,13 +9,10 @@ endpoint = "https://ostextanalytics.cognitiveservices.azure.com"
 
 language_api_url = endpoint + "/text/analytics/v2.1/languages"
 
-documents = {"documents": [
-    {"id": "1", "text": "This is a document written in English."},
-    {"id": "2", "text": "Este es un document escrito en Español."},
-    {"id": "3", "text": "这是一个用中文写的文件"}
-]}
+with open('data.json', encoding='utf-8-sig') as json_data:
+    body = json.load(json_data)
 
 headers = {"Ocp-Apim-Subscription-Key": subscription_key}
-response = requests.post(language_api_url, headers=headers, json=documents)
+response = requests.post(language_api_url, headers=headers, json=body)
 languages = response.json()
 pprint(languages)
