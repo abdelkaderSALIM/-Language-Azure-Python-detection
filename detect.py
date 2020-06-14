@@ -4,8 +4,8 @@ from pprint import pprint
 
 import os
 
-subscription_key = "<paste-your-text-analytics-key-here>"
-endpoint = "<paste-your-text-analytics-endpoint-here>"
+subscription_key = "d4adcdc709a24e5fb4ec1e7b0cef7f17"
+endpoint = "https://api.cognitive.microsofttranslator.com"
 
 language_api_url = endpoint + "/text/analytics/v2.1/languages"
 
