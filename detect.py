@@ -5,7 +5,7 @@ from pprint import pprint
 import os
 
 subscription_key = "d4adcdc709a24e5fb4ec1e7b0cef7f17"
-endpoint = "https://api.cognitive.microsofttranslator.com"
+endpoint = "https://ostextanalytics.cognitiveservices.azure.com"
 
 language_api_url = endpoint + "/text/analytics/v2.1/languages"
 
